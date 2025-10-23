@@ -26,17 +26,24 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 2rem;
     place-items: center;
-    margin: 3vw;
+    margin: 1vw;
 }
 
 .box {
     display: flex;
     align-items: center;
     flex-direction: column;
+    flex-shrink: 2;
 }
 
 .box span {
     margin-top: 0.5vw;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 #hero {
