@@ -188,7 +188,7 @@ h1 {
 }
 
 h2 {
-    font-size: clamp(1.2rem, 3vw, 2vw);
+    font-size: clamp(1.2rem, 1.5vw, 2vw);
     line-height: 0.5;
 }
 
@@ -219,4 +219,12 @@ img {
 
 :visited {
     color: #15227A;
+}
+
+.skill-spin {
+    transition: transform 0.5s ease-in-out
+}
+
+.skill-spin:active {
+    transform: rotate(360deg);
 }
