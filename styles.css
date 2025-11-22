@@ -10,11 +10,6 @@
     background-color: #15227A;
 }
 
-.aligncenter {
-    display: flex;
-    justify-content: center;
-}
-
 .container {
     display: flex;
     justify-content: center;
@@ -76,11 +71,15 @@
 }
 
 #skills {
-    
+    font-size: 2rem
 }
 
 #experience {
+    font-size: 2rem;
+}
 
+#experience div {
+    margin: 2rem;
 }
 
 #contact {
