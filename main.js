@@ -24,3 +24,16 @@ function showHide(){
     }
     isOpen = !isOpen;
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+  const emailElements = document.querySelectorAll('.email-protector');
+  emailElements.forEach(element => {
+    const username = element.getAttribute('data-user');
+    const domain = element.getAttribute('data-domain');
+    element.addEventListener('click', function(e) {
+      e.preventDefault();
+      window.location.href = `mailto:${username}@${domain}`;
+    });
+    element.innerHTML = `${username}@${domain}`;
+  });
+});
