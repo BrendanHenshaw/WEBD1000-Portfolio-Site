@@ -58,6 +58,10 @@
     
 }
 
+#cta a {
+    color: #BED5EB;
+}
+
 #cta {
     padding-top: 1rem;
 }
@@ -201,10 +205,6 @@ p {
     font-size: 1.5rem;
 }
 
-a {
-    color: #15227A;
-}
-
 button {
     display: block;
     margin: auto;
@@ -214,10 +214,6 @@ button {
 img {
     max-width: 100%;
     height: auto;
-}
-
-:visited {
-    color: #15227A;
 }
 
 .skill-spin {
