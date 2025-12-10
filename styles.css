@@ -55,7 +55,7 @@
 }
 
 #hero {
-    
+    padding-top: 0.5rem;
 }
 
 #cta a {
@@ -66,8 +66,8 @@
     padding-top: 1rem;
 }
 
-#vision {
-    
+#vision p {
+    margin: 1rem
 }
 
 #vision hr {
